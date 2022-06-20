@@ -1,0 +1,32 @@
+
+ABOUT
+
+This is a chrome extension that lets you read plain HTML pages that by default
+extend to fit the page's width. This is very unpleasant to read. This is why
+I created this very simple extension that simply adds the following tags to
+the body tag of the current HTML page:
+
+    style=max-width=80ch;margin:auto;
+
+Since the script is so simple it will only work for plain HTML pages and pages
+with minimum CSS laying-out. To be honest those pages are mostly fine so I
+don't care, it's really the plain HTML that's the problem.
+
+INSTALLATION
+
+Unfortunately I can not upload this extension to Chrome Web store because
+registering a new developer account requires $5 fee and at the same time
+transactions from my country are blocked. So you'll need to do a workaround way
+
+If you manage to upload this extension to Chrome Web Store somehow, please
+contact me and I'll put the link here.
+
+1. Clone the code.
+2. Go to chrome://extensions and tick "developer mode" on the top of the page
+3. Click the "Load unpacked" button and select the "src" folder.
+4. You have installed the extension
+
+USAGE
+
+If you find yourself on a troublesome page with very wide text just click on
+the Breader extension icon.
